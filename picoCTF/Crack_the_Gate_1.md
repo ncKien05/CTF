@@ -1,7 +1,7 @@
 # Overview
 When entering the website, a login page appears  
 <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/48daae86-9317-4867-b187-33f8962fc500" />  
-**Hint 1**: Developers sometimes leave notes in the code; but not always in plain text.
+**Hint 1**: Developers sometimes leave notes in the code; but not always in plain text.  
 **Hint 2**: A common trick is to rotate each letter by 13 positions in the alphabet.
 
 The website has provided us with an email and our job is to log in with this email  
