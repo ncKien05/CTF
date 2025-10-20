@@ -2,7 +2,6 @@
 This is the login and registration interface when we start entering the website  
   
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/2cb3233f-e361-46af-b837-190d75dc273c" />
-<img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/ea073e50-ab08-49b6-b700-14dd5331535b" />  
 
 After creating an account and logging in, you will be taken to a page that allows us to fetch the urls we passed  
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/b4c84f43-731b-4fc2-97cf-ffbce2193a0e" />  
@@ -47,5 +46,6 @@ Flag will be returned
 <img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/d935b5ef-7d3b-40b7-acfb-c40fd7fced52" />
   
 See more: [Jinja2](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/Python.md#jinja2)
+
 
 
