@@ -9,18 +9,18 @@ Hint 5: sqlite
 
 [Link 1](http://mercury.picoctf.net:65261)
 [Link 2](http://mercury.picoctf.net:65261/filter.php)  
-After accessing link 2, we can see that the web has filtered some characters and letters : or and true false union like = > < ; -- /* */ admin  
+After accessing link 2, we can see that the web has filtered some characters and letters : **`OR AND TRUE FALSE UNION LIKE = > < ; -- /* */ admin`** 
 We know the web uses SQLite  
 After accessing link 1, a login page appears. It seems we need to log in as an admin to be able to read the flag at /filter.php (which is link 2). 
 <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/4ecccdc2-b0c0-4dac-bbc0-679fdcf0e2d2" />  
 
 
 # Writeup
-B1: Because the website has filtered out the word admin, we have to think of a way to bypass the web filter.   
+**Bước1 :** Because the website has filtered out the word admin, we have to think of a way to bypass the web filter.   
 => The simplest way is that we will use the string concatenation method  
 <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/ad64cd23-0f95-4d88-b098-aa159ae19c10" />  
 
-B2: Now we need to think of a way to bypass this password (because the website does not provide an admin password).  
+**Bước2 :** Now we need to think of a way to bypass this password (because the website does not provide an admin password).  
 The website has filtered 'or and -' and after a while of trying, I discovered the use of || # or && # are also filtered  
 => So I thought of using the exception set except  
 => I will transmit:
@@ -30,8 +30,9 @@ The website has filtered 'or and -' and after a while of trying, I discovered th
 From there the SQL statement will become: SELECT username, password FROM users WHERE username='adm'||'in' except select ' AND password=',''  
 <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/4ee27bdb-38be-47cd-846c-ce1ac2118452" />  
 
-B3: Now check /filter.php to read the flag  
+**Bước3 :** Now check /filter.php to read the flag  
 <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/8df7fb59-1e82-4ee3-adbd-f80e93c939d9" />
+
 
 
 
