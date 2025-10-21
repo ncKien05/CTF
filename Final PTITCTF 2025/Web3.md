@@ -6,7 +6,7 @@ This is the login and registration interface when we start entering the website
 After creating an account and logging in, you will be taken to a page that allows us to fetch the urls we passed  
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/b4c84f43-731b-4fc2-97cf-ffbce2193a0e" />  
 
-
+# Recon
 Try streaming https://facebook.com  
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/343f43da-8cdb-40b3-a59b-5e3d335e3fca" />  
 There are 3 return parameters:  
@@ -26,7 +26,7 @@ Analyzing the code a little more, we can see that the website uses flask python 
 from flask import Flask, request, render_template, redirect, url_for, session, g
 from jinja2 import Template
 ```
-# Writeup
+# Solution
 Now we will create a web metadata containing description and payload  
 ```
 <html>
@@ -46,6 +46,7 @@ Flag will be returned
 <img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/d935b5ef-7d3b-40b7-acfb-c40fd7fced52" />
   
 See more: [Jinja2](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/Python.md#jinja2)
+
 
 
 
