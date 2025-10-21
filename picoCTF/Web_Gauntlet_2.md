@@ -1,5 +1,5 @@
 # Web Gauntlet 2
-- [Challenge information](#challenge information)
+- [Challenge information](#challenge-information)
 - [Overview](#overview)
 - [Solution](#solution)
 - [Flag](#flag)
@@ -51,6 +51,7 @@ From there the SQL statement will become: SELECT username, password FROM users W
 ## FLag
 Check /filter.php to read the flag  
 <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/8df7fb59-1e82-4ee3-adbd-f80e93c939d9" />
+
 
 
 
