@@ -33,16 +33,17 @@ If you enter the wrong password twice, you will have to wait 20 minutes, which i
 It seems like the IP is what helps the web realize we're trying to bruteforce  
 
 ## Solution
-**B1:** I will use burpsuite to catch the request  
+**Step1:** I will use burpsuite to catch the request  
 <img width="500" height="350" alt="Screenshot 2025-10-20 221831" src="https://github.com/user-attachments/assets/a64f87f8-c6f8-49a4-bfe1-d7efc9aeb1f2" />  
-**B2:** As mentioned above, I will try spoofing my IP to see how it goes  
+**Step2:** As mentioned above, I will try spoofing my IP to see how it goes  
 <img width="500" height="350" alt="Screenshot 2025-10-20 222157" src="https://github.com/user-attachments/assets/6783bc61-5378-4dee-a3cc-db7ed3cf47cf" />  
 This was truly successful  
-**B3:** Now I will use Intruder to bruteforce the password  
+**Step3:** Now I will use Intruder to bruteforce the password  
 <img width="500" height="350" alt="Screenshot 2025-10-20 222453" src="https://github.com/user-attachments/assets/d1751e99-4922-4a02-b5a8-3cf5c1cea7d3" />  
 
 
 ## Flag  
 <img width="500" height="350" alt="Screenshot 2025-10-20 222929" src="https://github.com/user-attachments/assets/10f85845-1d16-413d-9ba9-e1c9c7b19ce2" />
+
 
 
