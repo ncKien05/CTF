@@ -6,7 +6,7 @@
    
 ## Challenge information
 ```text
-Tags: Web Exploitation, picoCTF 
+Tags: Web Exploitation, picoCTF 2021
 
 Description:
 This website looks familiar... Log in as admin Site: http://mercury.picoctf.net:65261/
@@ -51,6 +51,7 @@ From there the SQL statement will become: SELECT username, password FROM users W
 ## FLag
 Check /filter.php to read the flag  
 <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/8df7fb59-1e82-4ee3-adbd-f80e93c939d9" />
+
 
 
 
