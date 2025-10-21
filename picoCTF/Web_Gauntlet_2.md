@@ -35,10 +35,10 @@ Based on the given data, to get the flag we need to log in as admin
 Because the website has filtered out the word admin, we have to think of a way to bypass the web filter.   
 => The simplest way is that we will use the string concatenation method  
 **Step2:** Bypass username  
-  
+  The website blocks `admin` so I cannot enter directly, we can enter via string concatenation  
 <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/ad64cd23-0f95-4d88-b098-aa159ae19c10" />  
 
-**Step2 :** Bypass password   
+**Step3 :** Bypass password   
 The website has filtered 'or and -' and after a while of trying, I discovered the use of || # or && # are also filtered  
 => So I thought of using the exception set except  
 => I will transmit:  
@@ -51,6 +51,7 @@ From there the SQL statement will become: SELECT username, password FROM users W
 ## FLag
 Check /filter.php to read the flag  
 <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/8df7fb59-1e82-4ee3-adbd-f80e93c939d9" />
+
 
 
 
