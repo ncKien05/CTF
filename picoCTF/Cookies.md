@@ -18,12 +18,12 @@ The website allows us to enter cookies into a box (can be similar to a placehold
   
 ![alt text](./Static/Images/image4.png)
 ## Solution
-**B1:** Use burpsuite to catch requests  
+**Step1:** Use burpsuite to catch requests  
 ![alt text](./Static/Images//image5.png)  
   
 In request /check, you can see that the cookie is assigned a name parameter => mining point  
 ![alt text](./Static/Images//image6.png)
-**B2:** Exploit  
+**Step2:** Exploit  
 Use intruder to bruteforce the name parameter  
 ![alt text](./Static/Images//image7.png)  
 ## Flag
