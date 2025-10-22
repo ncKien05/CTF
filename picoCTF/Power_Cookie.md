@@ -14,10 +14,10 @@ Hints:
 ```
 ## Overview
 A website with nothing special  
-![alt text](./Static/Images/image8.png)  
+![alt text](./Static/Images/Cookies/image8.png)  
   
 We can continue as guest  
-![alt text](./Static/Images//image9.png)  
+![alt text](./Static/Images/Cookies/image9.png)  
 And we are blocked :)  
 ## Solution
 **Step1:** Recon  
