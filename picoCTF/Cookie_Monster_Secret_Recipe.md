@@ -27,7 +27,7 @@ It can be seen that the web has blocked our access request
 ![alt text](./Static/Images/image2.png)  
 => We only need cookies to login
 ## Solution
-**B1:** Find cookie  
+**Step1:** Find cookie  
 * Right-click on the web, select inspect, then go to application (On google)  
 * In the Cookies section, we can see something quite interesting (%3D decrypt => '=')  
 `secret_recipe: cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzXzJDODA0MEVGfQ%3D%3D`  
