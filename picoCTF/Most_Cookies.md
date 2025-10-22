@@ -1,4 +1,8 @@
 # Most Cookies
+- [Challenge information](#challenge-information)
+- [Overview](#overview)
+- [Solution](#solution)
+- [Flag](#flag)
 ## Challenge information
 ```text
 Tags: picoCTF 2021, Web Exploitation
