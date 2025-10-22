@@ -23,7 +23,8 @@ And we are blocked :)
 **Step1:** Recon  
 * Right-click on the web, select inspect, then go to application (On google)  
 * In the Cookies section, we can see something quite interesting  
-`isAdmin=0`  
+`isAdmin=0`
+  
 **Step2:** Exploit  
 Change is to get the flag  
 `isAdmin=1`  
