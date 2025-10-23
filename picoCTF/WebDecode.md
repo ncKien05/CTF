@@ -1,4 +1,4 @@
-# Power Cookie
+# Web Decode
 - [Challenge information](#challenge-information)
 - [Overview](#overview)
 - [Solution](#solution)

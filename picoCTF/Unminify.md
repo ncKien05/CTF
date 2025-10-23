@@ -1,4 +1,4 @@
-# Power Cookie
+# Unminify
 - [Challenge information](#challenge-information)
 - [Overview](#overview)
 - [Solution](#solution)
