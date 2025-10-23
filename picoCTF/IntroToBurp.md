@@ -4,7 +4,7 @@
 - [Solution](#solution)
 - [Flag](#flag)
 ## Challenge information
-```test
+```text
 Tags: Web Explotation, picoCTF 2024
 
 Description:  None

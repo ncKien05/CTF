@@ -5,7 +5,7 @@
 - [Flag](#flag)
 
 ## Challenge information
-```test
+```text
 Tags : Web Exploitation, picoCTF 2025, browser_webshell_solvable
 
 Description: 

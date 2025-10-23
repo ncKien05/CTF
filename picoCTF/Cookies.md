@@ -4,7 +4,7 @@
 - [Solution](#solution)
 - [Flag](flag)
 ## Challenge information
-```test
+```text
 Tags: Web Explotation, picoCTF 2021
 
 Description: Who doesn't love cookies? Try to figure out the best one.

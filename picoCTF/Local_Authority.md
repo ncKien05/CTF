@@ -4,7 +4,7 @@
 - [Solution](#solution)
 - [Flag](#flag)
 ## Challenge information
-```test
+```text
 Tags: Web Explotation, picoCTF 2022, inspector
 
 Description: Can you get the flag?

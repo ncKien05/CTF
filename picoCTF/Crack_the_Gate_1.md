@@ -5,7 +5,7 @@
 - [Flag](#flag)
 
 ## Challenge information
-```
+```text
 Tags: Web Exploitation, picoMini by CMU-Africa, browser_webshell_solvable
   
 Description:  
