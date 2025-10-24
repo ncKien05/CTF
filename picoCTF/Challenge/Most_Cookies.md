@@ -17,10 +17,10 @@ Hints:
 ```
 ## Overview
 Same as previous posts, 1 page allows us to enter cookies and the purpose is still to find admin cookies  
-![alt text](./Static/Images/Cookies/image10.png)
+![alt text](/CTF/picoCTF/Static/Images/Cookies/image10.png)
 ## Solution
 **Step1:** Recon  
-* Let's start by analysing the server source code [server.py](./Static/Code/Cookies/Most_Cookies/Most_Cookies.py)  
+* Let's start by analysing the server source code [server.py](/CTF/picoCTF/Static/Code/Cookies/Most_Cookies/Most_Cookies.py)  
 * We can see that the secret key is chosen randomly from one of the cookie names
 ```python
 cookie_names = ["snickerdoodle", "chocolate chip", "oatmeal raisin", "gingersnap", "shortbread", "peanut butter", "whoopie pie", "sugar", "molasses", "kiss", "biscotti", "butter", "spritz", "snowball", "drop", "thumbprint", "pinwheel", "wafer", "macaroon", "fortune", "crinkle", "icebox", "gingerbread", "tassie", "lebkuchen", "macaron", "black and white", "white chocolate macadamia"]
@@ -36,7 +36,7 @@ app.secret_key = random.choice(cookie_names)
 => In short, our task now is to find the correct cookie, then encrypt the flask and send it as a session cookie.  
   
 **Step2:** Exploit  
-Use code [here](./Static/Code/Cookies/Most_Cookies/Solution.py)
+Use code [here](/CTF/picoCTF/Static/Code/Cookies/Most_Cookies/Solution.py)
 * I encoded a cookie chosen from 1 of the 28 cookie challenge provided  
 * then send it as a session cookie  
 ## Flag

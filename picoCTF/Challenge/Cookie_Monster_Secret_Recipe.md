@@ -20,11 +20,11 @@ Hints:
 ```
 ## Overview
 When accessing the website, a login form appeared  
-![alt text](./Static/Images/Cookies/image1.png)  
+![alt text](/CTF/picoCTF/Static/Images/Cookies/image1.png)  
   
 Try logging in with any username and password  
 It can be seen that the web has blocked our access request  
-![alt text](./Static/Images/Cookies/image2.png)  
+![alt text](/CTF/picoCTF/Static/Images/Cookies/image2.png)  
 => We only need cookies to login
 ## Solution
 **Step1:** Find cookie  

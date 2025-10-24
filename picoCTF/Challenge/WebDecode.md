@@ -15,9 +15,9 @@ Hints:
 ```
 ## Overview
 ### A strange website  
-![alt text](./Static/Images/Web_Decode/image1.png)  
-![alt text](./Static/Images/Web_Decode/image2.png)  
-![alt text](./Static/Images/Web_Decode/image3.png)
+![alt text](/CTF/picoCTF/Static/Images/Web_Decode/image1.png)  
+![alt text](/CTF/picoCTF/Static/Images/Web_Decode/image2.png)  
+![alt text](/CTF/picoCTF/Static/Images/Web_Decode/image3.png)
 ## Solution
 **Step1:** Recon  
 * notice in the picture at /about , it seems the web is trying to give us a hint  

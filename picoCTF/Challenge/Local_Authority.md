@@ -13,7 +13,7 @@ Hints:
 1. How is the password checked on this website?
 ```
 ## Overview
-![alt text](./Static/Images/Local_Authority/image.png)  
+![alt text](/CTF/picoCTF/Static/Images/Local_Authority/image.png)  
 * A login page appears as soon as we access the web.  
 * Only letters and numbers allowed for username and password.  
 * I tried to log in with  

@@ -15,7 +15,7 @@ Hints:
 3. Web browsers have other ways to run JavaScript too.
 ```
 ## Overview
-![alt text](./Static/Images/Bookmarklet/image.png)  
+![alt text](/CTF/picoCTF/Static/Images/Bookmarklet/image.png)  
 ### The web gives us a bookmarklet and it seems to ask us to decode it
 ## Solution
 * The simplest way is to use the web console.  
