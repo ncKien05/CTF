@@ -3,6 +3,7 @@
 - [Overview](#overview)
 - [Solution](#solution)
 - [Flag](#flag)
+- [Reference](#reference)
 ## Challenge information
 ```text
 Tags: Web Explotation, picoCTF 2023
@@ -199,3 +200,5 @@ class SecretGenerator {
 ![alt text](/CTF/picoCTF/Static/Images/Java_Code_Analys/image8.png)  
 ## Flag
 `picoCTF{w34k_jwt_n0t_g00d_6e5d7df5}`
+## Reference
+[JWT](https://portswigger.net/web-security/jwt)
