@@ -16,17 +16,17 @@ Hints:
 ## Overview
 * After accessing the web, the first thing we see is a login page.  
 
-![alt text](/CTF/picoCTF/Static/Images/IntroToBurp/image1.png)  
+![alt text](/picoCTF/Static/Images/IntroToBurp/image1.png)  
 * After trying to enter some random things to fill the form, i got a request for an OTP code sent to hmm.. probably my phone number  
 
-![alt text](/CTF/picoCTF/Static/Images/IntroToBurp/image2.png)
+![alt text](/picoCTF/Static/Images/IntroToBurp/image2.png)
 ## Solution
 **Step1:** Use burpsuite to capture requests  
-![alt text](/CTF/picoCTF/Static/Images/IntroToBurp/image3.png)  
+![alt text](/picoCTF/Static/Images/IntroToBurp/image3.png)  
 **Step2:** Exploit  
 * Turn on intercept on burpsuite, then send a random OTP code  
 
-![alt text](/CTF/picoCTF/Static/Images/IntroToBurp/image4.png)  
+![alt text](/picoCTF/Static/Images/IntroToBurp/image4.png)  
 * If the website receives the OTP code for authentication, let's try deleting it and see how it goes (delete the entire line `otp=123`)  
 => Flag will be returned
 ## Flag
