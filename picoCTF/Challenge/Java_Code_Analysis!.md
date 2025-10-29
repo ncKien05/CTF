@@ -19,7 +19,7 @@ Hints:
 4.  Upgrade your 'role' with the new (cracked) JWT. And re-login for the new role to get reflected in browser's localStorage.
 ```
 ## Overview
-![alt text](/CTF/picoCTF/Static/Images/Java_Code_Analys/image1.png)  
+![alt text](/picoCTF/Static/Images/Java_Code_Analys/image1.png)  
 * I tried logging in with any email and password, it returned `login failed`  
 * I created an account with:  
     * Username : hacker
@@ -28,23 +28,23 @@ Hints:
 
 * I created an account successfully and it logged me in  
 
-![alt text](/CTF/picoCTF/Static/Images/Java_Code_Analys/image2.png)
+![alt text](/picoCTF/Static/Images/Java_Code_Analys/image2.png)
 
 * This is my profile
-![alt text](/CTF/picoCTF/Static/Images/Java_Code_Analys/image3.png)  
+![alt text](/picoCTF/Static/Images/Java_Code_Analys/image3.png)  
 
 * I can upload my avatar or change my password, it sounds like a file upload vulnerability, but we don't exploit it here.
-![alt text](/CTF/picoCTF/Static/Images/Java_Code_Analys/image4.png)  
+![alt text](/picoCTF/Static/Images/Java_Code_Analys/image4.png)  
 
 * I see that there is a book outside the home that is a flag. After accessing it, it requires me to have admin rights to view it. This will be the main exploitation point of this article (login with admin).
-![alt text](/CTF/picoCTF/Static/Images/Java_Code_Analys/image5.png)  
+![alt text](/picoCTF/Static/Images/Java_Code_Analys/image5.png)  
 
 * Read the source provided for better understanding
 ## Solution
 **Step1:** Recon  
 * I used burpsuite to catch requests when I logged in  
-![alt text](/CTF/picoCTF/Static/Images/Java_Code_Analys/image6.png)  
-![alt text](/CTF/picoCTF/Static/Images/Java_Code_Analys/image7.png)  
+![alt text](/picoCTF/Static/Images/Java_Code_Analys/image6.png)  
+![alt text](/picoCTF/Static/Images/Java_Code_Analys/image7.png)  
 * As you can see, this is a JWT vulnerability, we can exploit it to log in with admin rights  
 * This is the jwt code initialized by the web
 
