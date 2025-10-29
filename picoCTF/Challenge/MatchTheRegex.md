@@ -14,7 +14,7 @@ Hints:
 1. Access the webpage and try to match the regular expression associated with the text field 
 ```
 ## Overview
-![alt text](/CTF/picoCTF/Static/Images/MatchTheRegex/image.png)  
+![alt text](/picoCTF/Static/Images/MatchTheRegex/image.png)  
 ## Solution
 **Step1:** Exploit  
 * In soure there is a rather strange piece of js  
