@@ -18,8 +18,8 @@ Hints:
 ```
 ## Overview
 ### It tells us to inspect it :)
-![alt text](/CTF/picoCTF/Static/Images/Insp3ct0r/image1.png)
-![alt text](/CTF/picoCTF/Static/Images/Insp3ct0r/image2.png)
+![alt text](/picoCTF/Static/Images/Insp3ct0r/image1.png)
+![alt text](/picoCTF/Static/Images/Insp3ct0r/image2.png)
 ## Solution
 **Step1:** Exploit  
 * This is the HTML snippet 
