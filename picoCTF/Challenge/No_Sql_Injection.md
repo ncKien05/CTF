@@ -16,7 +16,7 @@ Hints:
 2. Make sure you look at everything the server is sending back.
 ```
 ## Overview
-![alt text](/CTF/picoCTF/Static/Images/No_SQL_INJECTION/image1.png)  
+![alt text](/picoCTF/Static/Images/No_SQL_INJECTION/image1.png)  
 ## Solution
 **Step1:** Recon  
 ```Python
@@ -134,9 +134,9 @@ const user = await User.findOne({
     * password: {"$ne": null}
 * We can now log in as admin  
 
-![alt text](/CTF/picoCTF/Static/Images/No_SQL_INJECTION/image2.png)  
+![alt text](/picoCTF/Static/Images/No_SQL_INJECTION/image2.png)  
 * But in the page there is no flag we need, let's repeat what we just did and use burpsuite to catch the request  
 
-![alt text](/CTF/picoCTF/Static/Images/No_SQL_INJECTION/image3.png)  
+![alt text](/picoCTF/Static/Images/No_SQL_INJECTION/image3.png)  
 ## Flag
 `picoCTF{jBhD2y7XoNzPv_1YxS9Ew5qL0uI6pasql_injection_25ba4de1}`
