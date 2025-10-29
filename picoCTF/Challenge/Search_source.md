@@ -15,10 +15,11 @@ Hints:
 1. How could you mirror the website on your local machine so you could use more powerful tools for searching?
 ```
 ## Overview
-![alt text](/CTF/picoCTF/Static/Images/Search_source/image1.png)  
+![alt text](/picoCTF/Static/Images/Search_source/image1.png)  
 * A yoga website  
-* This is source page  
-![alt text](/CTF/picoCTF/Static/Images/Search_source/image2.png)  
+* This is source page
+  
+![alt text](/picoCTF/Static/Images/Search_source/image2.png)  
 ## Solution
 **Step1:** Exploit  
 * Use `wget -r [link_to_page]` to download recursive  
