@@ -5,11 +5,12 @@
 - [Flag](#flag)
 ## Challenge information
 ```text
-Tags: 
+Tags: Web Explotation, picoCTF 2022
 
 Description:  
+The flag is somewhere on this web application not necessarily on the website. Find it.
 
-Hints: 
+Hints: None
 ```
 ## Overview
 ![alt text](/CTF/picoCTF/Static/Images/Roboto_Sans/image1.png)  
