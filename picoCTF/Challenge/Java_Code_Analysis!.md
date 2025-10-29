@@ -197,7 +197,7 @@ class SecretGenerator {
 * Create a jwt code with role admin, userID equal to 2 (I tried 1 but it didn't work) and re-sign the code with secretkey =1234  
 `eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQWRtaW4iLCJpc3MiOiJib29rc2hlbGYiLCJleHAiOjE3NjIxNzU2MTIsImlhdCI6MTc2MTU3MDgxMiwidXNlcklkIjoyLCJlbWFpbCI6ImhhY2tlckBnbWFpbC5jb20ifQ.ogABvx_CsEmSjXNp87OEQ5jY7qUMIkNmV3gu7SZTRWw`
 * Select inspect then go to local storage and change the parameters to make them valid  
-![alt text](/CTF/picoCTF/Static/Images/Java_Code_Analys/image8.png)  
+![alt text](/picoCTF/Static/Images/Java_Code_Analys/image8.png)  
 ## Flag
 `picoCTF{w34k_jwt_n0t_g00d_6e5d7df5}`
 ## Reference
