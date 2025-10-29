@@ -18,7 +18,7 @@ Hints:
     * psql -h saturn.picoctf.net -p 58461 -U postgres pico
     * Password is postgres
 
-![alt text](/CTF/picoCTF/Static/Images/SQL_Direct/image1.png)
+![alt text](/picoCTF/Static/Images/SQL_Direct/image1.png)
 ## Solution
 * Because we already know it uses the postgres database, we will skip the recon step  
 **Step1 :** Exploit  
