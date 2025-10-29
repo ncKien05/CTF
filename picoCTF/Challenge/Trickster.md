@@ -14,17 +14,17 @@ Hints: None
 ```
 ## Overview
 ### When accessing the web, we can see a page that allows us to upload png files
-![alt text](/CTF/picoCTF/Static/Images/Trickster/image1.png)  
+![alt text](/picoCTF/Static/Images/Trickster/image1.png)  
 * I tried uploading an image file, and this is what I got 
 
-![alt text](/CTF/picoCTF/Static/Images/Trickster/image2.png)
+![alt text](/picoCTF/Static/Images/Trickster/image2.png)
 ## Solution
 **Step1:** Recon  
 * Usually when I encounter a website like this, I immediately think of the existence of a file upload vulnerability  
 * Those websites do not return the path to the uploaded file for us, now let's try to find more data  
 * I tried accessing /robots.txt and this is the result I got
 
-![alt text](/CTF/picoCTF/Static/Images/Trickster/image3.png)  
+![alt text](/picoCTF/Static/Images/Trickster/image3.png)  
 * We can use /uploads/x.png to view images  
 * i also tried accessing /instructions.txt to see what was there and this is what i got  
 ```text
