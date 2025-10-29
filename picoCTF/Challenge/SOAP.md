@@ -14,10 +14,10 @@ Hints:
 1. XML external entity Injection
 ```
 ## Overview
-![alt text](/CTF/picoCTF/Static/Images/SOAP/image1.png)  
+![alt text](/picoCTF/Static/Images/SOAP/image1.png)  
 ## Solution
 **Step 1:**  Exploit  
-![alt text](/CTF/picoCTF/Static/Images/SOAP/image2.png)  
+![alt text](/picoCTF/Static/Images/SOAP/image2.png)  
 * Request uses xml as the payload to send the post  
 => Xml injection vulnerability exists  
 * We will use:  
