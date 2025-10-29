@@ -16,10 +16,11 @@ Hints:
 1. Never trust the client
 ```
 ## Overview
-### A security login requires us to enter a password for authentication
-![alt text](image.png)
-*  If you enter the wrong password, the website will return: `Incorrect password`
-## Solution
+### A security login requires us to enter a password for authentication  
+<img width="1256" height="501" alt="image" src="https://github.com/user-attachments/assets/1768e280-5028-48e8-8207-739095e9fcb5" />  
+
+* If you enter the wrong password, the website will return: `Incorrect password`  
+## Solution  
 **Step1:** Exploit  
 ```HTML
 <html>

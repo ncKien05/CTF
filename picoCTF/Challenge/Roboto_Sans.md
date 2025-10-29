@@ -13,12 +13,12 @@ The flag is somewhere on this web application not necessarily on the website. Fi
 Hints: None
 ```
 ## Overview
-![alt text](/CTF/picoCTF/Static/Images/Roboto_Sans/image1.png)  
+![alt text](/picoCTF/Static/Images/Roboto_Sans/image1.png)  
 * A health website  
 ## Solution
 **Step1:** Recon  
 * The post name is a suggestion, let's try accessing `robots.txt` to see what's there  
-![alt text](/CTF/picoCTF/Static/Images/Roboto_Sans/image2.png)  
+![alt text](/picoCTF/Static/Images/Roboto_Sans/image2.png)  
 * As you can see, these are some base64 encoded snippets, try decoding them.  
     * ZmxhZzEudHh0 => flag1.txt  
     * anMvbXlmaW  =>  js/myfi  

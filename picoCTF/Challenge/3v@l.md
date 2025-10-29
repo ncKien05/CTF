@@ -18,7 +18,7 @@ Hints:
 ```
 ## Overview
 ### A web executes what we type
-![alt text](/CTF/picoCTF/Static/Images/3v@l/image.png)
+![alt text](/picoCTF/Static/Images/3v@l/image.png)
 ## Solution
 **Step1:** Recon  
 * Based on the description, we can see that the web uses the `eval()` function to calculate what we enter.  

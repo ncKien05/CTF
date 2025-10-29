@@ -15,13 +15,13 @@ Hints:
 ```
 ## Overview
 ###  A website that is quite painful to the eyes
-![alt text](/CTF/picoCTF/Static/Images/Get_aHEad/image1.png)  
+![alt text](/picoCTF/Static/Images/Get_aHEad/image1.png)  
 * When we click choose, the website will change color according to our choice
 ## Solution
 **Step1:** Recon    
 * Use burpsuite to catch requests  
-![alt text](/CTF/picoCTF/Static/Images/Get_aHEad/image2.png)
-![alt text](/CTF/picoCTF/Static/Images/Get_aHEad/image3.png)  
+![alt text](/picoCTF/Static/Images/Get_aHEad/image2.png)
+![alt text](/picoCTF/Static/Images/Get_aHEad/image3.png)  
 * We see that if you choose red, the website will use GET request to send, but if you choose blue, it will use POST request  
 
 **Step2:** Exploit  

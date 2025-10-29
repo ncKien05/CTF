@@ -12,7 +12,7 @@ Description: Can you get the flag?
 Hints: Is there more code than what the inspector initially shows?
 ```
 ## Overview
-![alt text](/CTF/picoCTF/Static/Images/Includes/image.png)
+![alt text](/picoCTF/Static/Images/Includes/image.png)
 * Web show gives us a text, i tried clicking say hello and the web alerted out a text `This code is in a separate file!`
 ## Solution
 * Based on the hint the web just alerted us  

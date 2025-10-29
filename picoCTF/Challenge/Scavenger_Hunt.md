@@ -15,8 +15,8 @@ Hints:
 ```
 ## Overview
 ### Just some boring HTML
-![alt text](/CTF/picoCTF/Static/Images/Scavenger_Hunt/image1.png)
-![alt text](/CTF/picoCTF/Static/Images/Scavenger_Hunt/image2.png)  
+![alt text](/picoCTF/Static/Images/Scavenger_Hunt/image1.png)
+![alt text](/picoCTF/Static/Images/Scavenger_Hunt/image2.png)  
 ## Solution
 **Step1:** Analysis  
 * The What tag of the web suggests to us what the web uses to code, which can be exploited from here  

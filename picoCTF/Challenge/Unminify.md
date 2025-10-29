@@ -16,7 +16,7 @@ Hints:
 3. What tools do developers use when working on a website? Many text editors and browsers include formatting.
 ```
 ## Overview
-![alt text](/CTF/picoCTF/Static/Images/Unminify/image.png)  
+![alt text](/picoCTF/Static/Images/Unminify/image.png)  
 ### Web tells us the flag has been passed, and we have to find it
 ## Solution
 Read source code can get flag immediately (Use `Ctr+U`)

@@ -18,17 +18,17 @@ Hints:
 2. The search endpoint is only helpful for telling you if you are admin or not, you won't be able to guess the flag name
 ```
 ## Overview
-![alt text](/CTF/picoCTF/Static/Images/Cookies/image11.png)  
+![alt text](/picoCTF/Static/Images/Cookies/image11.png)  
 * Nothing special here, the web just tells us `Only the admin can use search page!`  
 ## Solution
 **Step1:** Recon  
 * As always, go see what the cookie looks like :))  
 `Cookie: auth_name=NjVXeWU0NjF0eGRDdkpTQzdRcU1hbm5IUUtYMzNwcWtCUllOaGN5bGYwSFk5VG5ZSUlzSmxPZmMrNmtnS2NRR0RsZGNRcU12MlRRODBPZk5URndBQ3lUQ2t2VWJWeHB3M1l1TVJldTUwTk56NGR4cE5UdTdNQ0lnUXFmTDczNFU=`
 * Since it looked like it was base64 encoded i tried to decode it, after 2 times what i got looked like real garbage  
-![alt text](/CTF/picoCTF/Static/Images/Cookies/image12.png)  
+![alt text](/picoCTF/Static/Images/Cookies/image12.png)  
 * Looks like this is bit flip encoding  
 **Step2:** Exploit  
-Use code [here](/CTF/picoCTF/Static/Code/Cookies/More_Cookies/Solution.py)  
+Use code [here](/picoCTF/Static/Code/Cookies/More_Cookies/Solution.py)  
 * Code using bit flipping attack technique  
 ## Flag
 `picoCTF{cO0ki3s_yum_a9a19fa6}`

@@ -16,12 +16,12 @@ Hints: None
 ```
 ## Overview
 ### NAND Simulator
-![alt text](/CTF/picoCTF/Static/Images/Pachinko/image1.png)  
+![alt text](/picoCTF/Static/Images/Pachinko/image1.png)  
 ## Solution
 **Step1:** Exploit  
 * After i tried to connect the dots...  
-![alt text](/CTF/picoCTF/Static/Images/Pachinko/image2.png)  
-![alt text](/CTF/picoCTF/Static/Images/Pachinko/image3.png)  
+![alt text](/picoCTF/Static/Images/Pachinko/image2.png)  
+![alt text](/picoCTF/Static/Images/Pachinko/image3.png)  
 * It's pretty weird, I tried spam checking a few times before it gave me a flag  
 * I think the good thing is in part 2 of the challenge not here  
 ## Flag

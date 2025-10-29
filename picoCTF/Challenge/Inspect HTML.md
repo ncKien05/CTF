@@ -13,7 +13,7 @@ Hints:
 1. What is the web inspector in web browsers?
 ```
 ## Overview
-![alt text](/CTF/picoCTF/Static/Images/InspectHTML/image.png)  
+![alt text](/picoCTF/Static/Images/InspectHTML/image.png)  
 * Web show gives us a piece of text
 ## Solution
 `Ctr+U` to see source, flag is on the same day

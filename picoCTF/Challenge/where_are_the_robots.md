@@ -17,7 +17,7 @@ Hints:
 ```
 ## Overview
 ### It asked where our robot was
-![alt text](/CTF/picoCTF/Static/Images/where_are_the_robots/image.png)
+![alt text](/picoCTF/Static/Images/where_are_the_robots/image.png)
 ## Solution
 **Step1:** Exploit  
 * Access /robots.txt  

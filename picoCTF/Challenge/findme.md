@@ -14,23 +14,23 @@ Hints:
 1. any redirections?
 ```
 ## Overview
-![alt text](/CTF/picoCTF/Static/Images/findme/image1.png)  
+![alt text](/picoCTF/Static/Images/findme/image1.png)  
 * Login with:  
     * Username: test  
     * Password : test!  
 
-![alt text](/CTF/picoCTF/Static/Images/findme/image2.png)  
+![alt text](/picoCTF/Static/Images/findme/image2.png)  
 
 ## Solution
 **Step 1:** Exploit  
 * Use burpsuite to catch requests  
 
-![alt text](/CTF/picoCTF/Static/Images/findme/image3.png)  
+![alt text](/picoCTF/Static/Images/findme/image3.png)  
 * We can see some quite interesting requests  
 
-![alt text](/CTF/picoCTF/Static/Images/findme/image4.png)  
+![alt text](/picoCTF/Static/Images/findme/image4.png)  
 => `cGljb0NURntwcm94aWVzX2Fs`
-![alt text](/CTF/picoCTF/Static/Images/findme/image5.png)  
+![alt text](/picoCTF/Static/Images/findme/image5.png)  
 => `bF90aGVfd2F5X2QxYzBiMTEyfQ==`
 * Decode to get the flag
 ## Flag

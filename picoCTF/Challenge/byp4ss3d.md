@@ -15,11 +15,11 @@ Hints:
 ```
 ## Overview
 ### Access the link, a website that allows us to upload files will appear
-![alt text](/CTF/picoCTF/Static/Images/byp4ss3d/image1.png)  
+![alt text](/picoCTF/Static/Images/byp4ss3d/image1.png)  
 
 * When i try to upload any png image file  
 
-![alt text](/CTF/picoCTF/Static/Images/byp4ss3d/image2.png)  
+![alt text](/picoCTF/Static/Images/byp4ss3d/image2.png)  
 ## Solution
 **Step1:** Recon  
 * Normally when I encounter this type of website I immediately think of File Upload Vulnerability.  
@@ -32,10 +32,10 @@ Hints:
 * Web returned `Not allowed!`  
 * Let's try changing .php to .png and see what happens.  
 
-![alt text](/CTF/picoCTF/Static/Images/byp4ss3d/image3.png)  
+![alt text](/picoCTF/Static/Images/byp4ss3d/image3.png)  
 * Was able to upload, but when we accessed the website, it had been scanned for malware.  
 
-![alt text](/CTF/picoCTF/Static/Images/byp4ss3d/image4.png)  
+![alt text](/picoCTF/Static/Images/byp4ss3d/image4.png)  
 * I tried uploading files with different extensions than the one the web requires and it still uploads successfully.  
 * It seems that only PHP files are blocked.  
 
@@ -47,6 +47,6 @@ AddType application/x-httpd-php .hacker
 ```  
 * After uploading this file, we will rename the newly created php malware file to shell.hacker  
 * Now we can execute it  
-![alt text](/CTF/picoCTF/Static/Images/byp4ss3d/image5.png)  
+![alt text](/picoCTF/Static/Images/byp4ss3d/image5.png)  
 ## Flag
 `picoCTF{s3rv3r_byp4ss_39f9de85}`

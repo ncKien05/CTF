@@ -15,9 +15,9 @@ Hints:
 1. folders folders folders
 ```
 ## Overview  
-![alt text](/CTF/picoCTF/Static/Images/Secrets/image1.png)    
-![alt text](/CTF/picoCTF/Static/Images/Secrets/image2.png)  
-![alt text](/CTF/picoCTF/Static/Images/Secrets/image3.png)  
+![alt text](/picoCTF/Static/Images/Secrets/image1.png)    
+![alt text](/picoCTF/Static/Images/Secrets/image2.png)  
+![alt text](/picoCTF/Static/Images/Secrets/image3.png)  
 ## Solution
 **Step1 :** Recon  
 * This is the web source  
@@ -63,10 +63,10 @@ Hints:
 => `src="secret/assets/DX1KYM.jpg"` => A path traversal vulnerability may exist 
 
 **Step 2:** Exploit  
-![alt text](/CTF/picoCTF/Static/Images/Secrets/image4.png)  
+![alt text](/picoCTF/Static/Images/Secrets/image4.png)  
 * Continue to closely follow the returned web content by reading the source  
 
-![alt text](/CTF/picoCTF/Static/Images/Secrets/image5.png)  
+![alt text](/picoCTF/Static/Images/Secrets/image5.png)  
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -82,7 +82,7 @@ Hints:
 </html>
 ```
 
-![alt text](/CTF/picoCTF/Static/Images/Secrets/image6.png)  
+![alt text](/picoCTF/Static/Images/Secrets/image6.png)  
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -159,7 +159,7 @@ Hints:
 </html>
 ```
 
-![alt text](/CTF/picoCTF/Static/Images/Secrets/image7.png)  
+![alt text](/picoCTF/Static/Images/Secrets/image7.png)  
 ```HTML
 
 <!DOCTYPE html>
