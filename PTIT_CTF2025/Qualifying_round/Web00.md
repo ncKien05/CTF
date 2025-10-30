@@ -79,8 +79,10 @@ We can use the `substring` function to exhaust all characters and find the corre
 * But in the flag there will be special characters like: `_ {}` , which are blocked so we will convert the blocked characters to ASCII format
 Brute-force attack
 * With payload 1 being the position of each character in the flag from 1 → 27
-* With payload 2 being the match value in ASCII format, including numbers and special characters
-
+* With payload 2 being the match value in ASCII format, including numbers and special characters  
+   
+<img width="1911" height="858" alt="image" src="https://github.com/user-attachments/assets/47ed52de-a486-4a7d-b2d1-cc31d727c1e3" />  
+  
 ```
 host = "http://103.197.184.163:12113"
 uri = "/?user=1&pass=2"
