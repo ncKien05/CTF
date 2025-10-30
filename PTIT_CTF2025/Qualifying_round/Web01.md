@@ -46,6 +46,12 @@ To answer this question, we need to reconfigure the environment the server is ru
 <img width="1457" height="904" alt="image" src="https://github.com/user-attachments/assets/fde7326f-11c0-44d2-89b5-7407963675dc" />   
 ⇒ We get the path to the file containing the Flag  
 
+<img width="1495" height="990" alt="image" src="https://github.com/user-attachments/assets/8b1e66d8-785a-4cdd-83e4-473c700bcbb6" />  
+
+FROM THE [SOURCE](https://nguyengiangnam.notion.site/WU-PTITCTF-2025-260091b6851e807babfdcce2bba84411)
+
+
+
 
 
 
